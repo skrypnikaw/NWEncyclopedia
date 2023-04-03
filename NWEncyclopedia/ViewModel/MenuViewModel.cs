@@ -7,6 +7,8 @@ using System.Text;
 using System.Windows.Controls;
 using System.Threading.Tasks;
 using NWEncyclopedia.ViewModel.Base;
+using System.Windows.Data;
+using System.Globalization;
 
 namespace NWEncyclopedia.ViewModel
 {
@@ -24,8 +26,8 @@ namespace NWEncyclopedia.ViewModel
 
         public List<string> MenuFields
         {
-            get { return _menuFields; }
-            set { _menuFields = value; }
+            get => _menuFields;
+            set => Set(ref _menuFields, value);
         }
         public MenuViewModel()
         {
@@ -40,5 +42,7 @@ namespace NWEncyclopedia.ViewModel
                 "Калькулятор"
             };
         }
+
+       
     }
 }

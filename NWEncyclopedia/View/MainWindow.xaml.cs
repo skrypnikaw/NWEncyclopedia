@@ -26,7 +26,7 @@ namespace NWEncyclopedia.View
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Content = new MenuPage();
+            MainFrame.Content = new BaseCalculatorPage();
         }
     }
 }

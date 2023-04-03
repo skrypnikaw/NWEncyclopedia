@@ -1,6 +1,4 @@
-﻿using NWEncyclopedia.Model;
-using NWEncyclopedia.ViewModel;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,30 +12,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using NWEncyclopedia.View;
-
-
 
 namespace NWEncyclopedia.View.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MenuPage.xaml
+    /// Логика взаимодействия для CalculatorPage.xaml
     /// </summary>
-    public partial class MenuPage : Page
+    public partial class CalculatorPage : Page
     {
-        public MenuPage()
+        public CalculatorPage()
         {
             InitializeComponent();
         }
 
-        private void Button_Click_Calculator(object sender, RoutedEventArgs e)
-        {
-           NavigationService.Navigate(new BaseCalculatorPage());
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+      
     }
 }
