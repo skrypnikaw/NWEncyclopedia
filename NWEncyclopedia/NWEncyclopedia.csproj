@@ -9,8 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="dsfda\" />
-    <Folder Include="йцуфв\" />
   </ItemGroup>
 
 </Project>
